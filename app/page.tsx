@@ -239,7 +239,7 @@ export default function Calculator() {
               </TableRow>
             </TableHeader>
             <TableBody>
-              <TableRow className="text-gray-500">
+              <TableRow className="text-gray-500 hover:bg-transparent">
                 <TableCell>Miscellaneous</TableCell>
                 <TableCell>{misc.amount}</TableCell>
                 <TableCell>{misc.min}</TableCell>
