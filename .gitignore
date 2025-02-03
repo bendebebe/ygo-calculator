@@ -2,6 +2,12 @@
 
 # dependencies
 /node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
 
 # next.js
 /.next/
@@ -9,6 +15,11 @@
 
 # production
 /build
+/dist
+
+# misc
+.DS_Store
+*.pem
 
 # debug
 npm-debug.log*
@@ -17,7 +28,8 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-.env*
+.env*.local
+.env
 
 # vercel
 .vercel
@@ -25,3 +37,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - Other
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
