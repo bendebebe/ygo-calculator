@@ -14,3 +14,7 @@ A modern web application that helps Yu-Gi-Oh players calculate the probability o
 
 ## Inspiration
 This calculator was inspired by yugioh.party, created as an alternative when the original site went down.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
