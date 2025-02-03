@@ -118,7 +118,7 @@ export default function Calculator() {
   const misc = calculateMiscellaneous(cardEntries, deckSize, handSize)
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 md:p-8">
+    <div className="min-h-screen bg-black text-white p-4 pb-24 md:p-8 md:pb-24">
       <Card className="max-w-4xl mx-auto bg-black border-white/20">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl md:text-3xl font-bold text-white">
@@ -322,7 +322,7 @@ export default function Calculator() {
           </div>
         </CardContent>
       </Card>
-      <footer className="min-h-screen bg-black text-white p-4 md:p-8">
+      <footer className="fixed bottom-0 left-0 right-0 bg-black text-white p-4 text-center border-t border-white/20">
         <p className="text-gray-300">Inspired by yugioh.party, which at the time of this tool's creation is down.
         </p>
       </footer>
